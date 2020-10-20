@@ -1,5 +1,5 @@
 # Hash cracker
-It is a simple multithreading app that could brute force such hashes as **SHA1**, **SHA128**, **SHA256** and **MD5**.
+It is a simple multithreading app that could brute force such hashes as **SHA1**, **SHA256**, **SHA512** and **MD5**.
 
 ## Usage
     ./hashcracker -hash hexstring|-file path [-type sha1|sha128|sha256|md5] [-max val] [-min val] [-charset chars] [-threads num] 
@@ -50,9 +50,9 @@ Crack **sha256** with 512 threads
     
     ./hashcracker -type sha256 -threads 512 -hash 97c10efe01d5c9c88704a12d361d8429b3a6aa2412290a0773109d5d2d603d5e
 
-Crack **sha128** hashes from file
+Crack **sha1** hashes from file
     
-    ./hashcracker -type sha128 -file ./hashes.txt
+    ./hashcracker -type sha1 -file ./hashes.txt
 
 ## Get elapsed time
 
