@@ -58,7 +58,7 @@ Crack **sha1** hashes from file
 
 Just use **time** command
 
-    time ./hashcracker -hash 2e96e89125f4c1aef797410a4bfdb32c0632ef0c
+    $ time ./hashcracker -hash 2e96e89125f4c1aef797410a4bfdb32c0632ef0c
     Start cracking hash 2e96e89125f4c1aef797410a4bfdb32c0632ef0c
     Check mesages with length: 1 | Possible variants: 100
     Check mesages with length: 2 | Possible variants: 10000
@@ -84,7 +84,7 @@ Ex. 1
 
 Ex. 2
 
-    ./hashcracker -max 5 -file ./hashes.txt -charset abcdefghijklmnopqrstuvwxyz/:.
+    $ ./hashcracker -max 5 -file ./hashes.txt -charset abcdefghijklmnopqrstuvwxyz/:.
     Start cracking hash c3437dbc7c1255d3a21d444d86ebf2e9234c22bd
     Check mesages with length: 1 | Possible variants: 29
     Check mesages with length: 2 | Possible variants: 841
