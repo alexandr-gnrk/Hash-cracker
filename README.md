@@ -2,7 +2,7 @@
 It is a simple multithreading app that could brute force such hashes as **SHA1**, **SHA256**, **SHA512** and **MD5**.
 
 ## Usage
-    ./hashcracker -hash hexstring|-file path [-type sha1|sha128|sha256|md5] [-max val] [-min val] [-charset chars] [-threads num] 
+    ./hashcracker -hash hexstring|-file path [-type sha1|sha256|sha512|md5] [-max val] [-min val] [-charset chars] [-threads num] 
 
     Usage of ./hashcracker:
     -charset string
