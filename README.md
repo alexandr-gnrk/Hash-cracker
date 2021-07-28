@@ -116,4 +116,4 @@ Ex. 2
 ## Optimal number of threads
 According to plot below, recomended number of threads is near to 256 (256 is default).
 ![benchmark_image](./img/benchmark.png)
-Programm was tested on computer with 4 CPUs.
+Programm was tested on computer with 4 cores.
